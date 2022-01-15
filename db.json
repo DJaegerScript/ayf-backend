@@ -1,16 +1,582 @@
 {
-  "posts":[
+  "issue": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214733/social_hzj7dw.jpg",
+      "label": "Social",
+      "categoryId": "social"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214734/economy_wdjqrp.jpg",
+      "label": "Economy",
+      "categoryId": "economy"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214733/human_right_vtqayu.jpg",
+      "label": "Human Right",
+      "categoryId": "human-right"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214734/culture_bcrece.jpg",
+      "label": "Culture",
+      "categoryId": "culture"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214733/health_svsuqt.jpg",
+      "label": "Health",
+      "categoryId": "health"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214734/education_flzhtv.jpg",
+      "label": "Education",
+      "categoryId": "education"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214733/law_o0kdj6.jpg",
+      "label": "Law",
+      "categoryId": "law"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214733/military_pfk4pd.jpg",
+      "label": "Military",
+      "categoryId": "military"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214734/crime_rt26dp.jpg",
+      "label": "Crime",
+      "categoryId": "crime"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214734/sport_jgcvn7.jpg",
+      "label": "Sport",
+      "categoryId": "sport"
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214734/automotive_y5jshq.jpg",
+      "label": "Automotive",
+      "categoryId": "automotive"
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214733/environment_amg3of.jpg",
+      "label": "Environment",
+      "categoryId": "environment"
     }
   ],
-  "comments" : [
+  "category": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "social",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "human-right",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "military",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "crime",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "automotive",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "trendingTopics": [
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy1_carha7.jpg",
+          "title": "Harga Daging Ayam Naik Pada Awal Pekan Ini",
+          "description": "Jakarta, Rerata harga daging ayam di pasar tradisional di seluruh Indonesia naik 0,88 persen ke Rp34.250 per Kilogram (Kg) pada awal pekan ini."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy3_xvy6sx.jpg",
+          "title": "Transaksi UMKM dan BUMN, Tembus 10,9 T Lewat PaDi",
+          "description": "Jakarta,  Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir mengatakan nilai transaksi yang dihasilkan antara Usaha Mikro, Kecil, dan Menengah."
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/dohqh8twm/image/upload/v1642214973/economy2_cianq9.jpg",
+          "title": "Pendaftaran Kartu Prakerja Gelombang 20 Di Umumkan Pekan Ini",
+          "description": "Jakarta, CNN Indonesia -- Manajemen Kartu Prakerja (PMO) akan membuka kembali program Kartu Prakerja bagi 800 ribu orang pada gelombang ke-20."
+        }
+      ],
+      "popularTopics": [
+        {
+          "imageUrl": "../popular1.jpg",
+          "title": "Rupiah Gagah Ke 14.222 Akibat Data Ekonomi AS",
+          "viewers": "2.876"
+        },
+        {
+          "imageUrl": "../popular2.jpg",
+          "title": "Uang Kripto Kompak Menghijau, Bitcoin-Dogecoin Paling Segar",
+          "viewers": "2.098"
+        },
+        {
+          "imageUrl": "../popular3.jpg",
+          "title": "Leasing Bisa Sita Baramg Kredit Tanpa Pengadlilan",
+          "viewers": "2.021"
+        },
+        {
+          "imageUrl": "../popular4.jpg",
+          "title": "IHSG Macet Pada Hari Ini, 6 September",
+          "viewers": "1.902"
+        }
+      ]
     }
   ]
 }
